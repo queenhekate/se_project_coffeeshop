@@ -178,10 +178,14 @@
   line-height: 52px;
 }
 
-.reservation__form {
-  margin: 0;
+.form__fieldset {
   display: flex;
   flex-direction: column;
+  border: none;
+}
+
+.reservation__form {
+  margin: 0;
   top: 80px;
 }
 
@@ -208,6 +212,7 @@
 }
 
 .form__input {
+  display: block;
   max-width: 385px;
   height: 60px;
   margin: 8px 0 32px;
