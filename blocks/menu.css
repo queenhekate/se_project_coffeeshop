@@ -35,17 +35,17 @@
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
-  column-gap: 100px;
-  list-style-type: none;
+  gap: 100px;
+  list-style: none;
 }
 
 .card {
-  max-width: 540px;
+  width: 540px;
   display: flex;
   flex-direction: column;
 }
 
-.card_title {
+.card__title {
   margin: 0 0 16px;
   font-family: "Inter";
   font-style: normal;
@@ -54,7 +54,7 @@
   line-height: 30px;
 }
 
-.card_list {
+.card__list {
   margin: 0;
   padding: 0;
   display: flex;
@@ -62,7 +62,7 @@
   gap: 16px;
 }
 
-.card_list-item {
+.card__list-item {
   margin-top: 16px;
   display: flex;
   font-family: "Noto Serif", "Times New Roman", serif;
@@ -72,7 +72,7 @@
   line-height: 20px;
 }
 
-.card_list-divider {
+.card__list-divider {
   border-bottom: 1px solid#838383;
   flex-grow: 1;
 }
