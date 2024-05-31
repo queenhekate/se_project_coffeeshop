@@ -6,14 +6,14 @@
     opacity: 0.6;
   }
   100% {
-    transform: scale (1.4);
+    transform: scale(1.2);
     opacity: 0;
   }
 }
 
 .about {
   background: #0a2850;
-  padding: 119px 100px 173px 80px;
+  padding: 100px 173px 80px;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -36,7 +36,7 @@
   display: flex;
   flex-direction: column;
   width: 660px;
-  margin: auto 19px 0;
+  margin: 0;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
@@ -47,7 +47,8 @@
 }
 
 .about__paragraph {
-  margin-top: 119px;
+  margin: 0;
+  padding: 0;
 }
 
 .about__circle {
@@ -59,9 +60,17 @@
   top: -152px;
   left: -129px;
   z-index: -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .about__circle_animation_blurred {
+  width: 426px;
+  height: 426px;
+  background-color: #3498db;
+  border-radius: 50%;
   animation: pulsate 1.3s ease-in-out infinite;
   z-index: 0;
 }
