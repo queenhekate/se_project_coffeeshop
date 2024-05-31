@@ -51,7 +51,7 @@
   align-items: center;
 }
 
-.footer__social-link:hover {
+.footer__column-link:hover {
   color: #c1c1c1;
 }
 
@@ -62,6 +62,6 @@
 }
 
 .footer__copyright {
-  margin: 108px, 0;
+  margin: 108px 0 0;
   padding: 0;
 }

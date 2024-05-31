@@ -13,7 +13,7 @@
 
 .about {
   background: #0a2850;
-  padding: 100px 173px 80px;
+  padding: 100px 80px 173px;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -22,7 +22,9 @@
 }
 
 .about__title {
-  width: 251px;
+  max-width: 251px;
+  margin: 0 auto 0 auto 0 auto;
+  padding: 0;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -35,8 +37,8 @@
 .about__content {
   display: flex;
   flex-direction: column;
-  width: 660px;
-  margin: 0;
+  max-width: 660px;
+  margin: 19px 0 173px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
@@ -67,10 +69,5 @@
 }
 
 .about__circle_animation_blurred {
-  width: 426px;
-  height: 426px;
-  background-color: #3498db;
-  border-radius: 50%;
   animation: pulsate 1.3s ease-in-out infinite;
-  z-index: 0;
 }

@@ -1,6 +1,6 @@
 .recipes {
   margin: 0;
-  padding: 80px 100px 215px;
+  padding: 100px 80px 215px;
   background: #0a2750 url(../images/background_recipes.svg) no-repeat center;
   background-size: cover;
 }
@@ -18,7 +18,7 @@
 }
 
 .recipes__subtitle {
-  margin-top: 24px;
+  margin: 24px 0 0;
   padding: 0;
   max-width: 438px;
   font-family: "Noto Serif", "Times New Roman", serif;
@@ -31,6 +31,8 @@
 
 .recipes__videos {
   margin-top: 80px;
+  margin-bottom: 0;
+  padding-left: 0;
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -49,7 +51,7 @@
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
-  margin-top: 24px;
+  margin: 24px 0 0;
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
