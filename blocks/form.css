@@ -21,6 +21,7 @@
   box-sizing: border-box;
   border-width: 1px;
   border-style: solid;
+  border-radius: 4px;
   padding: 10px;
   height: 60px;
   margin-bottom: 32px;
@@ -35,7 +36,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  font-color: #fff;
+  color: #fff;
   margin-bottom: 32px;
 }
 
@@ -59,17 +60,5 @@
   display: flex;
   justify-content: center;
   gap: 12px;
-}
-
-.form__label-checkbox {
-  margin: 0;
-  font-family: Inter, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-input[type="checkbox"] {
   accent-color: #2f80ed;
 }
